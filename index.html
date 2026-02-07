@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Учебная практика — технологическое предпринимательство (1 курс)</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" type="image/png" href="assets/favicon.ico" />
+  <meta name="description" content="Сайт курса учебной практики: задания, требования, ресурсы, шаблоны и страницы каждого занятия." />
+</head>
+<body class="bg-slate-950 text-slate-50">
+
+  <header class="glass-header">
+    <div class="flex items-center gap-3">
+      <div class="logo-circle">
+              <div class="logo-letter">
+        УП
+      </div>
+      </div>
+      <div>
+        <div class="font-semibold tracking-wide text-slate-50">Учебная практика</div>
+        <div class="text-xs text-slate-300">Технологическое предпринимательство · 1 курс</div>
+      </div>
+    </div>
+
+    <nav class="hidden md:flex items-center gap-6 text-sm">
+      <a href="#about" class="nav-link">О курсе</a>
+      <a href="#schedule" class="nav-link">Календарь</a>
+      <a href="#lessons" class="nav-link">Занятия</a>
+      <a href="#topics" class="nav-link">Витрина тем</a>
+      <a href="#diaries" class="nav-link">Дневники</a>
+      <a href="#downloads" class="nav-link">Шаблоны</a>
+    </nav>
+
+    <div class="flex items-center gap-3">
+      <a href="#lessons" class="hidden md:inline-flex px-3 py-1.5 text-xs rounded-full border border-violet-400/80 bg-violet-500/10 hover:bg-violet-500/20 transition">К занятиям</a>
+    </div>
+  </header>
+
+  <main class="relative overflow-hidden">
+    <div class="bg-grid"></div>
+
+    <!-- HERO -->
+    <section class="relative pt-32 pb-16 px-4 sm:px-8 max-w-6xl mx-auto">
+      <div class="grid lg:grid-cols-2 gap-10 items-center">
+        <div class="space-y-6">
+          <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full border border-emerald-400/60 bg-emerald-500/10 text-xs text-emerald-100">
+            <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+            Задания · требования · шаблоны · ресурсы
+          </div>
+          <h1 class="text-3xl sm:text-4xl lg:text-5xl font-extrabold leading-tight">
+            Учебная практика
+          </h1>
+          <p class="text-sm sm:text-base text-slate-200/80 max-w-xl">
+            Здесь собраны все материалы курса: что делать на каждом занятии, что сдавать, как оформлять,
+            где искать источники и какие шаблоны использовать.
+          </p>
+          <div class="flex flex-wrap gap-3">
+            <a href="#lessons" class="btn-primary">Открыть занятия</a>
+            <a href="#topics" class="btn-ghost">Выбрать тему проекта</a>
+          </div>
+
+          <div class="grid sm:grid-cols-3 gap-3 pt-2">
+            <div class="p-4 rounded-2xl border border-slate-700/60 bg-slate-900/40">
+              <div class="text-xs text-slate-300/80">Формат</div>
+              <div class="font-semibold mt-1">8 занятий × 3 часа</div>
+              <div class="text-xs text-slate-200/70 mt-1">каждые 2 недели по вторникам</div>
+            </div>
+            <div class="p-4 rounded-2xl border border-slate-700/60 bg-slate-900/40">
+              <div class="text-xs text-slate-300/80">Итог</div>
+              <div class="font-semibold mt-1">Презентация проекта</div>
+              <div class="text-xs text-slate-200/70 mt-1">выступление 3–5 минут</div>
+            </div>
+            <div class="p-4 rounded-2xl border border-slate-700/60 bg-slate-900/40">
+              <div class="text-xs text-slate-300/80">Оценка</div>
+              <div class="font-semibold mt-1">Посещаемость + задания</div>
+              <div class="text-xs text-slate-200/70 mt-1">сроки, полнота, защита</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-card">
+          <div class="text-xs uppercase tracking-wide text-slate-300/80 mb-3">Сквозная логика курса</div>
+          <div class="space-y-4 text-sm">
+            <div class="step-row">
+              <span class="step-pill">1</span>
+              <div>
+                <div class="font-semibold text-slate-50">Идея → инженерная проблема</div>
+                <div class="text-slate-300/80 text-xs">Карточка проекта, направление ФСИ, проблемные зоны.</div>
+              </div>
+            </div>
+            <div class="step-row">
+              <span class="step-pill">2</span>
+              <div>
+                <div class="font-semibold text-slate-50">Проблема → цель и задачи</div>
+                <div class="text-slate-300/80 text-xs">Измеримость, критерии успеха, ограничения.</div>
+              </div>
+            </div>
+            <div class="step-row">
+              <span class="step-pill">3</span>
+              <div>
+                <div class="font-semibold text-slate-50">Аналоги → ниша</div>
+                <div class="text-slate-300/80 text-xs">Таблица сравнения + обзор решений со ссылками.</div>
+              </div>
+            </div>
+            <div class="step-row">
+              <span class="step-pill">4</span>
+              <div>
+                <div class="font-semibold text-slate-50">ЦА → сценарий использования</div>
+                <div class="text-slate-300/80 text-xs">Персона, use-case, метрики сценария.</div>
+              </div>
+            </div>
+            <div class="step-row">
+              <span class="step-pill">5</span>
+              <div>
+                <div class="font-semibold text-slate-50">План → Гант</div>
+                <div class="text-slate-300/80 text-xs">Работы, зависимости, вехи.</div>
+              </div>
+            </div>
+            <div class="step-row">
+              <span class="step-pill">6</span>
+              <div>
+                <div class="font-semibold text-slate-50">Ресурсы → риски</div>
+                <div class="text-slate-300/80 text-xs">Risk register, меры снижения, роли.</div>
+              </div>
+            </div>
+            <div class="step-row">
+              <span class="step-pill">7</span>
+              <div>
+                <div class="font-semibold text-slate-50">Экономика</div>
+                <div class="text-slate-300/80 text-xs">Затраты + эффект/доход с числами и источниками.</div>
+              </div>
+            </div>
+            <div class="step-row">
+              <span class="step-pill">8</span>
+              <div>
+                <div class="font-semibold text-slate-50">Презентация и защита</div>
+                <div class="text-slate-300/80 text-xs">7–10 слайдов, 3–5 минут, вопросы.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="px-4 sm:px-8 max-w-6xl mx-auto pb-12">
+      <div class="grid lg:grid-cols-3 gap-6">
+        <div class="lg:col-span-2 p-6 rounded-3xl border border-slate-700/60 bg-slate-900/40">
+          <h2 class="text-2xl font-bold">О курсе</h2>
+          <p class="text-slate-200/80 mt-3 text-sm">
+            Практика проходит в формате проектной деятельности. Итог — проект, оформленный так, чтобы его можно было
+            развивать дальше (курсовая/ВКР/конкурс) и защищать перед аудиторией.
+          </p>
+          <ul class="mt-4 space-y-2 text-sm text-slate-200/80 list-disc pl-5">
+            <li>Направления: <b>Управление в технических системах</b>, <b>автономные системы управления</b>.</li>
+            <li>Проект должен иметь измеримый результат: время, точность, снижение ошибок, экономия ресурсов и т.д.</li>
+            <li>Использование генеративных инструментов допускается только как помощь, но сдаётся ваш осмысленный результат.</li>
+          </ul>
+        </div>
+        <div class="p-6 rounded-3xl border border-slate-700/60 bg-slate-900/40">
+          <h3 class="text-xl font-bold">Как формируется оценка</h3>
+          <div class="text-sm text-slate-200/80 mt-3 space-y-2">
+            <div>✅ Посещение: минимум <b>7 из 8</b> занятий</div>
+            <div>✅ Все задания в срок и в полном объёме</div>
+            <div>✅ Полный пакет материалов (таблицы/шаблоны/источники)</div>
+            <div>✅ Успешное выступление в конце (3–5 минут + вопросы)</div>
+            <div>✅ Посещение всех мероприятий по дисциплине «Обучение служением»</div>
+          </div>
+          <a href="#schedule" class="btn-ghost mt-5 inline-flex">Посмотреть календарь</a>
+        </div>
+      </div>
+    </section>
+    <!-- DIARIES -->
+    <section id="diaries" class="px-4 sm:px-8 max-w-6xl mx-auto pb-12">
+      <div class="p-6 rounded-3xl border border-slate-700/60 bg-slate-900/40">
+        <h2 class="text-2xl font-bold">Дневники практики</h2>
+        <p class="text-sm text-slate-200/80 mt-2">Каждое занятие необходимо заполнять дневник практики</p>
+        <div class="flex flex-wrap gap-3">
+            <a href="https://disk.yandex.ru/i/-uKywCbZkSM6Cw" target="_blank" class="btn-primary">Открыть дневники 4 группы</a>
+            <a href="https://disk.yandex.ru/d/wxcNuxGeUfLyQw" target="_blank" class="btn-primary">Открыть дневники 9 группы</a>
+        </div>
+      </div>
+    </section>
+    <!-- SCHEDULE -->
+
+    <!-- Оценивание -->
+    <section id="grading" class="px-4 sm:px-8 max-w-6xl mx-auto pb-12">
+      <div class="grid lg:grid-cols-2 gap-8 items-start">
+        <div class="hero-card p-6">
+          <div class="text-xs uppercase tracking-wide text-slate-300/80 mb-3">Из чего складывается оценка</div>
+          <ul class="space-y-3 text-sm text-slate-200/90">
+            <li class="flex gap-3"><span class="dot mt-2"></span><span><b>Посещаемость</b>: для «отлично» — не менее <b>7 из 8</b> занятий.</span></li>
+            <li class="flex gap-3"><span class="dot mt-2"></span><span><b>Сроки</b>: материалы по каждому занятию сдаются в установленный срок.</span></li>
+            <li class="flex gap-3"><span class="dot mt-2"></span><span><b>Полнота</b>: предоставлены все артефакты (таблицы/шаблоны/расчёты) по занятиям 1–8.</span></li>
+            <li class="flex gap-3"><span class="dot mt-2"></span><span><b>Качество</b>: есть цифры, критерии «готово», ссылки на источники; нет «воды».</span></li>
+            <li class="flex gap-3"><span class="dot mt-2"></span><span><b>Финальная защита</b>: презентация + выступление 3–5 минут + ответы на вопросы.</span></li>
+            <li class="flex gap-3"><span class="dot mt-2"></span><span><b>Дисциплина «Обучение служением»</b>: посещение <b>всех</b> образовательных мероприятий, предусмотренных по дисциплине.</span></li>
+            <li class="flex gap-3"><span class="dot mt-2"></span><span><b>Дневник практики </b>полностью <b>заполнен</b>.</span></li>
+          </ul>
+        </div>
+        <div class="hero-card p-6">
+          <div class="text-xs uppercase tracking-wide text-slate-300/80 mb-3">Минимум, чтобы не провалить курс</div>
+          <div class="space-y-4 text-sm text-slate-200/90">
+            <div class="p-4 rounded-2xl border border-slate-700/60 bg-slate-900/40">
+              <div class="font-semibold">1) Понимать то, что нагенерировали</div>
+              <div class="text-xs text-slate-300/80 mt-1">На защите задаются вопросы по вашим таблицам и цифрам. Если не можете объяснить - будет пересдача.</div>
+            </div>
+            <div class="p-4 rounded-2xl border border-slate-700/60 bg-slate-900/40">
+              <div class="font-semibold">2) Источники обязательны</div>
+              <div class="text-xs text-slate-300/80 mt-1">Таблица аналогов, экономика, факты о проблеме - только со ссылками на источники.</div>
+            </div>
+            <div class="p-4 rounded-2xl border border-slate-700/60 bg-slate-900/40">
+              <div class="font-semibold">3) Сквозная логика</div>
+              <div class="text-xs text-slate-300/80 mt-1">Проблема → цель → задачи → ЦА → сценарий → аналоги → план → риски → экономика → презентация.</div>
+            </div>
+          </div>
+          <div class="mt-5 flex flex-wrap gap-3">
+            <a href="#downloads" class="btn-primary">Скачать шаблоны</a>
+            <a href="#topics" class="btn-ghost">Выбрать тему</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="schedule" class="px-4 sm:px-8 max-w-6xl mx-auto pb-12">
+      <div class="p-6 rounded-3xl border border-slate-700/60 bg-slate-900/40">
+        <h2 class="text-2xl font-bold">Календарь занятий</h2>
+        <p class="text-sm text-slate-200/80 mt-2">Каждый второй вторник, начиная с 10.02.2026.</p>
+        <div class="overflow-x-auto mt-5">
+          <table class="w-full text-sm">
+            <thead>
+              <tr class="text-left text-slate-200/90">
+                <th class="py-2 pr-4">№</th>
+                <th class="py-2 pr-4">Дата</th>
+                <th class="py-2 pr-4">Тема</th>
+                <th class="py-2">Результат</th>
+              </tr>
+            </thead>
+            <tbody class="text-slate-200/80">
+              <tr class="border-t border-slate-700/60"><td class="py-2 pr-4">1</td><td class="py-2 pr-4">10.02.2026</td><td class="py-2 pr-4">Введение и выбор идеи проекта</td><td class="py-2">Карточка проекта</td></tr>
+              <tr class="border-t border-slate-700/60"><td class="py-2 pr-4">2</td><td class="py-2 pr-4">24.02.2026</td><td class="py-2 pr-4">Проблема → цель и задачи</td><td class="py-2">Таблица «проблема–цель–задачи»</td></tr>
+              <tr class="border-t border-slate-700/60"><td class="py-2 pr-4">3</td><td class="py-2 pr-4">10.03.2026</td><td class="py-2 pr-4">Аналоги и обзор решений</td><td class="py-2">Таблица аналогов + обзор</td></tr>
+              <tr class="border-t border-slate-700/60"><td class="py-2 pr-4">4</td><td class="py-2 pr-4">24.03.2026</td><td class="py-2 pr-4">ЦА, персона, сценарий</td><td class="py-2">Персона + use-case</td></tr>
+              <tr class="border-t border-slate-700/60"><td class="py-2 pr-4">5</td><td class="py-2 pr-4">07.04.2026</td><td class="py-2 pr-4">План реализации и Гант</td><td class="py-2">WBS + Гант + вехи</td></tr>
+              <tr class="border-t border-slate-700/60"><td class="py-2 pr-4">6</td><td class="py-2 pr-4">21.04.2026</td><td class="py-2 pr-4">Ресурсы и риски</td><td class="py-2">Ресурсы + risk register</td></tr>
+              <tr class="border-t border-slate-700/60"><td class="py-2 pr-4">7</td><td class="py-2 pr-4">05.05.2026</td><td class="py-2 pr-4">Экономика проекта</td><td class="py-2">Затраты + эффект/доход</td></tr>
+              <tr class="border-t border-slate-700/60"><td class="py-2 pr-4">8</td><td class="py-2 pr-4">19.05.2026</td><td class="py-2 pr-4">Презентация и защита</td><td class="py-2">Презентация 7–10 слайдов</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- LESSONS -->
+    <section id="lessons" class="px-4 sm:px-8 max-w-6xl mx-auto pb-12">
+      <div class="flex items-end justify-between gap-4">
+        <div>
+          <h2 class="text-2xl font-bold">Страницы занятий</h2>
+          <p class="text-sm text-slate-200/80 mt-1">В каждой странице: что делаем, что сдаём, шаблоны и ссылки.</p>
+        </div>
+      </div>
+
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-5 mt-6">
+        
+        <a href="lessons/lesson1.html" class="p-6 rounded-3xl border border-slate-700/60 bg-slate-900/40 hover:bg-slate-900/60 transition">
+          <div class="text-xs text-slate-300/80">Занятие 1</div>
+          <div class="text-lg font-semibold mt-1">Идея и инженерная проблема</div>
+          <div class="text-sm text-slate-200/70 mt-2">Карточка проекта + выбор направления.</div>
+        </a>
+        <a href="lessons/lesson2.html" class="p-6 rounded-3xl border border-slate-700/60 bg-slate-900/40 hover:bg-slate-900/60 transition">
+          <div class="text-xs text-slate-300/80">Занятие 2</div>
+          <div class="text-lg font-semibold mt-1">Проблема → цель и задачи</div>
+          <div class="text-sm text-slate-200/70 mt-2">Таблица: проблема, цель, задачи, метрики.</div>
+        </a>
+        <a href="lessons/lesson3.html" class="p-6 rounded-3xl border border-slate-700/60 bg-slate-900/40 hover:bg-slate-900/60 transition">
+          <div class="text-xs text-slate-300/80">Занятие 3</div>
+          <div class="text-lg font-semibold mt-1">Аналоги и обзор</div>
+          <div class="text-sm text-slate-200/70 mt-2">Таблица сравнений + текст-обзор со ссылками.</div>
+        </a>
+        <a href="lessons/lesson4.html" class="p-6 rounded-3xl border border-slate-700/60 bg-slate-900/40 hover:bg-slate-900/60 transition">
+          <div class="text-xs text-slate-300/80">Занятие 4</div>
+          <div class="text-lg font-semibold mt-1">ЦА и сценарий</div>
+          <div class="text-sm text-slate-200/70 mt-2">Персона + use-case + метрики.</div>
+        </a>
+        <a href="lessons/lesson5.html" class="p-6 rounded-3xl border border-slate-700/60 bg-slate-900/40 hover:bg-slate-900/60 transition">
+          <div class="text-xs text-slate-300/80">Занятие 5</div>
+          <div class="text-lg font-semibold mt-1">План и диаграмма Ганта</div>
+          <div class="text-sm text-slate-200/70 mt-2">WBS, зависимости, вехи, Гант.</div>
+        </a>
+        <a href="lessons/lesson6.html" class="p-6 rounded-3xl border border-slate-700/60 bg-slate-900/40 hover:bg-slate-900/60 transition">
+          <div class="text-xs text-slate-300/80">Занятие 6</div>
+          <div class="text-lg font-semibold mt-1">Ресурсы и риски</div>
+          <div class="text-sm text-slate-200/70 mt-2">Risk register + меры снижения.</div>
+        </a>
+        <a href="lessons/lesson7.html" class="p-6 rounded-3xl border border-slate-700/60 bg-slate-900/40 hover:bg-slate-900/60 transition">
+          <div class="text-xs text-slate-300/80">Занятие 7</div>
+          <div class="text-lg font-semibold mt-1">Экономика проекта</div>
+          <div class="text-sm text-slate-200/70 mt-2">Затраты + эффект/доход (с числами).</div>
+        </a>
+        <a href="lessons/lesson8.html" class="p-6 rounded-3xl border border-slate-700/60 bg-slate-900/40 hover:bg-slate-900/60 transition">
+          <div class="text-xs text-slate-300/80">Занятие 8</div>
+          <div class="text-lg font-semibold mt-1">Презентация и защита</div>
+          <div class="text-sm text-slate-200/70 mt-2">7–10 слайдов, 3–5 минут, вопросы.</div>
+        </a>
+      </div>
+    </section>
+
+    <!-- TOPICS -->
+    <section id="topics" class="px-4 sm:px-8 max-w-6xl mx-auto pb-12">
+      <div class="p-6 rounded-3xl border border-slate-700/60 bg-slate-900/40">
+        <div class="flex flex-col lg:flex-row lg:items-end justify-between gap-5">
+          <div>
+            <h2 class="text-2xl font-bold">Витрина тем проектов</h2>
+            <p class="text-sm text-slate-200/80 mt-2">Можно выбрать тему здесь и сохранить выбор (останется в браузере).</p>
+          </div>
+          <div class="grid sm:grid-cols-3 gap-3 w-full lg:w-auto">
+            <input id="topicSearch" class="px-4 py-2 rounded-2xl bg-slate-950/60 border border-slate-700/60 text-sm" placeholder="Поиск по теме/ключевым словам" />
+            <select id="topicCluster" class="px-4 py-2 rounded-2xl bg-slate-950/60 border border-slate-700/60 text-sm">
+              <option value="all">Все кластеры</option>
+            </select>
+            <select id="topicFSI" class="px-4 py-2 rounded-2xl bg-slate-950/60 border border-slate-700/60 text-sm">
+              <option value="all">Все направления ФСИ</option>
+            </select>
+          </div>
+        </div>
+
+        <div id="pickedTopicBox" class="hidden mt-5 p-4 rounded-2xl border border-emerald-400/40 bg-emerald-500/10">
+          <div class="text-xs text-emerald-100/80">Выбранная тема</div>
+          <div class="text-lg font-semibold" data-picked-title></div>
+          <div class="text-sm text-emerald-100/80" data-picked-meta></div>
+        </div>
+
+        <div id="topicsGrid" class="grid md:grid-cols-2 lg:grid-cols-3 gap-4 mt-6"></div>
+      </div>
+    </section>
+
+    <!-- DOWNLOADS -->
+    <section id="downloads" class="px-4 sm:px-8 max-w-6xl mx-auto pb-20">
+      <div class="grid lg:grid-cols-3 gap-6">
+        <div class="lg:col-span-2 p-6 rounded-3xl border border-slate-700/60 bg-slate-900/40">
+          <h2 class="text-2xl font-bold">Шаблоны для скачивания</h2>
+          <p class="text-sm text-slate-200/80 mt-2">Используйте эти файлы как основу. Можно заполнять в Word/Excel или Google Docs/Sheets.</p>
+          <div class="grid sm:grid-cols-2 gap-4 mt-5">
+            <a class="p-4 rounded-2xl border border-slate-700/60 bg-slate-950/40 hover:bg-slate-950/60 transition" href="downloads/template_project_card.docx" download>
+              <div class="font-semibold">Карточка проекта</div>
+              <div class="text-xs text-slate-200/70">Занятие 1 · DOCX</div>
+            </a>
+            <a class="p-4 rounded-2xl border border-slate-700/60 bg-slate-950/40 hover:bg-slate-950/60 transition" href="downloads/template_problem_goal_tasks.xlsx" download>
+              <div class="font-semibold">Проблема–цель–задачи</div>
+              <div class="text-xs text-slate-200/70">Занятие 2 · XLSX</div>
+            </a>
+            <a class="p-4 rounded-2xl border border-slate-700/60 bg-slate-950/40 hover:bg-slate-950/60 transition" href="downloads/template_analogs_table.xlsx" download>
+              <div class="font-semibold">Таблица аналогов</div>
+              <div class="text-xs text-slate-200/70">Занятие 3 · XLSX</div>
+            </a>
+            <a class="p-4 rounded-2xl border border-slate-700/60 bg-slate-950/40 hover:bg-slate-950/60 transition" href="downloads/template_analogs_review.docx" download>
+              <div class="font-semibold">Обзор аналогов</div>
+              <div class="text-xs text-slate-200/70">Занятие 3 · DOCX</div>
+            </a>
+            <a class="p-4 rounded-2xl border border-slate-700/60 bg-slate-950/40 hover:bg-slate-950/60 transition" href="downloads/template_audience_persona_usecase.docx" download>
+              <div class="font-semibold">ЦА / персона / сценарий</div>
+              <div class="text-xs text-slate-200/70">Занятие 4 · DOCX</div>
+            </a>
+            <a class="p-4 rounded-2xl border border-slate-700/60 bg-slate-950/40 hover:bg-slate-950/60 transition" href="downloads/template_gantt.xlsx" download>
+              <div class="font-semibold">План + Гант</div>
+              <div class="text-xs text-slate-200/70">Занятие 5 · XLSX</div>
+            </a>
+            <a class="p-4 rounded-2xl border border-slate-700/60 bg-slate-950/40 hover:bg-slate-950/60 transition" href="downloads/template_resources_risks.xlsx" download>
+              <div class="font-semibold">Ресурсы + риски</div>
+              <div class="text-xs text-slate-200/70">Занятие 6 · XLSX</div>
+            </a>
+            <a class="p-4 rounded-2xl border border-slate-700/60 bg-slate-950/40 hover:bg-slate-950/60 transition" href="downloads/template_economics.xlsx" download>
+              <div class="font-semibold">Экономика</div>
+              <div class="text-xs text-slate-200/70">Занятие 7 · XLSX</div>
+            </a>
+          </div>
+        </div>
+
+        <div class="p-6 rounded-3xl border border-slate-700/60 bg-slate-900/40">
+          <h3 class="text-xl font-bold">Шаблон презентации</h3>
+          <p class="text-sm text-slate-200/80 mt-2">Если удобнее — можно взять основу и заполнить слайдами курса.</p>
+          <a class="btn-primary mt-4 inline-flex" href="downloads/template_presentation.pptx" download>Скачать PPTX</a>
+          <div class="mt-5 text-sm text-slate-200/80">
+            <div class="font-semibold text-slate-100">Подсказка</div>
+            <div class="mt-2">На страницах занятий есть чек‑листы прогресса — можно отмечать готовность прямо в браузере.</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="pb-10 text-center text-xs text-slate-400/80">
+      <div class="max-w-6xl mx-auto px-4 sm:px-8">
+        © 2026 · Учебная практика · Технологическое предпринимательство
+      </div>
+    </footer>
+
+  </main>
+
+  <script src="js/topics.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
